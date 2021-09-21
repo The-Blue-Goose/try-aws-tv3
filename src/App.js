@@ -3,7 +3,7 @@ import './App.css';
 import DisplayPosts from './components/DisplayPosts';
 import CreatePost from './components/CreatePost';
 import { withAuthenticator } from 'aws-amplify-react';
-import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
 
 
 function App() {
